@@ -1,0 +1,136 @@
+// 🚀 JavaScript & Git Fundamentals – Synopsis
+// This document provides a comprehensive overview of core JavaScript concepts along with essential Git commands used for version control and project management.
+
+// 🔷 1. Git & GitHub Workflow
+// Git is a version control system used to track changes in code and collaborate with others using platforms like GitHub.
+
+// 📌 Initial Setup
+// Initialize repository:
+
+// git init
+// Create a repository on GitHub and copy its URL
+
+// Link local project to GitHub:
+
+// git remote add origin <repo-url>
+// Add files:
+
+// git add .
+// Commit changes:
+
+// git commit -m "Your message"
+// Push to GitHub:
+
+// git push -u origin main
+// 🔁 Daily Workflow
+// After initial setup, use:
+
+// git add .
+// git commit -m "message"
+// git push
+// 🔷 2. JavaScript Data Types
+// JavaScript supports dynamic typing and includes:
+
+// String → Text data
+// Number → Mathematical values
+// Object → Key-value pair structure
+// 👉 typeof is used to check the data type of a variable.
+
+// 🔷 3. Variables & Scope
+// var, let, const → Used to declare variables
+// Scope defines where variables can be accessed
+// Variables inside functions are local
+// 🔷 4. Conditional Statements
+// 📌 If Statement
+// Executes code when condition is true:
+
+// if (condition) {
+//   // code
+// }
+// 📌 Nested If
+// An if inside another if
+
+// 📌 Else Statement
+// Executes when condition is false:
+
+// if (condition) {
+//   // true block
+// } else {
+//   // false block
+// }
+// 📌 Switch Case
+// Used for multiple conditions:
+
+// switch (x) {
+//   case 1:
+//     break;
+// }
+// 🔷 5. Operators
+// Arithmetic Operators
+// Addition → +
+// Subtraction → -
+// Multiplication → *
+// Division → /
+// Modulus → %
+// Comparison Operators
+// == → Equal
+// === → Strict equal
+// != → Not equal
+// >, <, >=, <=
+// 🔷 6. Loops
+// 📌 For Loop
+// Used for repetition:
+
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+// }
+// 🔷 7. Strings & String Methods
+// length → Returns string length
+// toUpperCase() / toLowerCase()
+// substring()
+// charAt()
+// 📌 Template Literals
+// let str = `Hello ${name}`;
+// 🔷 8. Arrays & Array Methods
+// Arrays store multiple values:
+
+// let arr = [1, 2, 3];
+// Common Methods
+// push() → Add at end
+// pop() → Remove from end
+// unshift() → Add at beginning
+// shift() → Remove from beginning
+// splice() → Add/remove elements
+// indexOf() → Find index
+// includes() → Check existence
+// 🔷 9. Advanced Array Methods
+// forEach() → Iterate elements
+// map() → Transform array
+// filter() → Conditional selection
+// find() → First matching element
+// 🔷 10. Objects
+// Objects store data in key-value pairs:
+
+// let obj = { name: "Aryan" };
+// 🔷 11. Functions
+// Functions are reusable blocks of code:
+
+// function add(a, b) {
+//   return a + b;
+// }
+// 📌 Arrow Functions
+// const add = (a, b) => a + b;
+// 🔷 12. Type Conversion
+// parseInt() → String to integer
+// parseFloat() → String to float
+// Number() → Convert to number
+// 🔷 13. Math Functions
+// Math.random() → Random number
+// Math.floor() → Round down
+// Math.ceil() → Round up
+// 🔷 14. DOM (Document Object Model)
+// DOM allows interaction with HTML elements:
+
+// document.getElementById("name");
+// 🎯 Conclusion
+// This synopsis covers essential JavaScript fundamentals and Git workflows required for modern web development. Mastering these concepts helps in building interactive applications and managing code efficiently using version control systems.
