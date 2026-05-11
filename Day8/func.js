@@ -36,7 +36,7 @@ function calculator(a, b , operator){
 calculator(610,189,"-");
 
 
-const calc = {
+calc = {
     sum: (...op) => op.reduce((acc, curr) => acc + curr, 0),
     sub: (...op) => op.reduce((acc, curr) => acc - curr, 0),
     mul: (...op) => op.reduce((acc, curr) => acc * curr, 1),
