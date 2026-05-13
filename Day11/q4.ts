@@ -3,9 +3,8 @@
 type FolderNode = {
   name: string;
   files?: string[];
-  subFolders?: FolderNode[]; 
+  subFolders?: FolderNode[];
 };
-
 
 const root: FolderNode = {
   name: "root",
@@ -28,12 +27,11 @@ const root: FolderNode = {
   ]
 };
 
-
 function printTree(node: FolderNode, indent: number = 0): void {
-  console.log(" ".repeat(indent) + "📁 " + node.name);
+  console.log(" ".repeat(indent) + node.name);
 
   if (node.files) {
-    node.files.forEach(f => console.log(" ".repeat(indent + 2) + "📄 " + f));
+    node.files.forEach(f => console.log(" ".repeat(indent + 2) + f));
   }
 
   if (node.subFolders) {

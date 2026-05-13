@@ -16,7 +16,7 @@ function setMargin(value: MarginValue): void {
   console.log(`Margin set to: ${value}`);
 }
 
-setMargin("10px");   // ✅
-setMargin("3rem");   // ✅
-setMargin("8vh");    // ✅
+setMargin("10px");   
+setMargin("3rem");   
+setMargin("8vh");    
 
