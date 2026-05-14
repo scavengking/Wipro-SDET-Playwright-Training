@@ -1,0 +1,19 @@
+Playwright:
+
+-> Playwright is a web automation and testing framework used to verify whether a website is functioning correctly as expected.
+
+-> In this course, JavaScript is used for writing and executing test scripts.
+
+-> One of the major benefits of Playwright is its built-in auto-wait feature. It automatically waits for elements and page actions to complete, so there is no need to use methods like thread.sleep().
+
+Installation command:
+    npm init playwright@latest
+
+Command to execute test files:
+    npx playwright test filename.spec.js
+
+-> Async and await keywords should be used while handling asynchronous operations inside callbacks.
+
+-> Playwright supports multiple browsers such as Chromium, WebKit, and Firefox.
+
+-> Test cases are executed in parallel by default, which helps reduce execution time and improves efficiency.
