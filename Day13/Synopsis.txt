@@ -1,0 +1,9 @@
+Synopsis
+
+Studied Playwright automation testing and project setup.
+Created a simple login application using Express.js.
+Configured environment variables using dotenv.
+Implemented GET and POST routes for login functionality.
+Used middleware to handle JSON, form data, and static files.
+Tested valid and invalid login scenarios with Playwright.
+Performed username and password validation testing.
