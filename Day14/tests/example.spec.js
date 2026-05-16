@@ -14,7 +14,7 @@ const loginData = [
   }, {
     username: "admin123", 
     password: "admin123", 
-    expected: "Login successful"
+    expected: "WRONG TEXT HERE"
   }, {
     username: "admin123", 
     password: "admin12345", 
@@ -37,6 +37,7 @@ loginData.forEach(async data => {
     // await btn.screenshot({ type: 'png', path: 'btn.png'  });
     // await page.screenshot({ fullPage: true, path: 'full-page.png' })
     
+    // await expect(msg).toHaveText("FAILED TEST");
     await expect(msg).toHaveText(data.expected);
   });
 })
